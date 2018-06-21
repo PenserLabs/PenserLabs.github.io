@@ -12,7 +12,6 @@
 #snackbar {
     visibility: hidden;
     min-width: 250px;
-    margin-left: -125px;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -80,11 +79,11 @@
         <div>
         	<form action="mailto:developer.penserlabs@gmail.com" method="post" enctype="text/plain">
 			Name:<br>
-			<input type="text" name="name"><br>
+			<input type="text" name="name" required=""><br>
 			E-mail:<br>
-			<input type="text" name="mail"><br>
+			<input type="text" name="mail" required=""><br>
 			Comment:<br>
-			<input type="text" name="comment" size="50"><br><br>
+			<input type="text" name="comment" required="" size="50"><br><br>
 			<input type="submit" value="Send" class="btn btn-primary" onclick="myFunction()">
 			<input type="reset" value="Reset" class="btn btn-info">
 			</form>
@@ -99,7 +98,7 @@
         </div>
     </div>
 </div>
-<div id="snackbar">Your message has been send. Thank you for your interest.</div>
+<div id="snackbar">Your message has been send. Thank you for connecting with us.</div>
 <script>
 function myFunction() {
     var x = document.getElementById("snackbar");
