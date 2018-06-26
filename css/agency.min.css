@@ -46,7 +46,7 @@ section h3.section-subheading{
 		border-color:#00cc00!important;
 		color:#fff
 	}.btn-primary:active,.btn-primary:focus{
-		box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important
+		box-shadow:0 0 0 .2rem rgba(255,255,255,.5)!important
 	}::-moz-selection{
 		background:#ffffff;text-shadow:none
 	}::selection{
