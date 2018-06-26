@@ -85,12 +85,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ffffff;
   text-shadow: none;
 }
 
@@ -123,7 +123,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #ffffff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
