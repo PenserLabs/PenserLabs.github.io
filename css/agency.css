@@ -12,6 +12,10 @@ p {
   line-height: 1.75;
 }
 
+img {
+  pointer-events: none;
+}
+
 a {
   color: #fed136;
 }
@@ -344,6 +348,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content img {
+  pointer-events: none;
   margin-bottom: 30px;
 }
 
@@ -582,6 +587,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
+  pointer-events: none;
   width: 225px;
   height: 225px;
   border: 7px solid #fff;
