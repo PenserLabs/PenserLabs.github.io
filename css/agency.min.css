@@ -9,7 +9,6 @@ body{
 }
 img{
 	pointer-events: none;
-	padding-bottom: 50px;
 }
 p{
 	line-height:1.75
@@ -39,6 +38,9 @@ section h3.section-subheading{
 	section{
 		padding:150px 0
 	}
+}
+.pad1{
+	padding-bottom: 30px;
 }
 .abt{
 	line-height: 2;
