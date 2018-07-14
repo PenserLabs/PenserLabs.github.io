@@ -1,7 +1,6 @@
 .card{
 	margin: 5%;
 	width: auto;
-	height: auto;
 	box-shadow: 20px 40px 60px rgba(0,0,0,0.5);
     transition: 0.3s;
     border-radius: 25px;
