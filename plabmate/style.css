@@ -21,3 +21,6 @@ body{
 	background: linear-gradient(#2186f3, #2156f3);
 	text-align: justify;
 }
+h1,h3{
+	text-align: left;
+}
