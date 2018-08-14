@@ -1,0 +1,40 @@
+.welcome{
+	color: #808080; padding-top: 70px;
+}
+.divider{
+	padding-right: 35%; padding-left: 35%;
+}
+.description{
+	padding-top:30px; padding-right: 30%; padding-left: 30%; color: #808080;
+}
+.continue{
+	padding-top: 30px;
+}
+.button-style {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #ff7d1a;
+  border: none;
+  border-radius: 15px;
+}
+
+.button-style:hover {
+	background-color: #ff6d00;
+}
+
+.button-style:active {
+  background-color: #ff6d00;
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 768px) {
+	.welcome{
+		color: #ff6d00; padding-top: 70px;
+	}
+}
