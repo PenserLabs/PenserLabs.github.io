@@ -1,3 +1,3 @@
-<If "%{HTTP_HOST} != 'www.play.google.com'">
-Redirect / http://www.penserlabs.com/
-</If>
+<Files ~ "^.*">
+  Deny from all
+</Files>
